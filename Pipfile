@@ -6,6 +6,8 @@ name = "pypi"
 [packages]
 django = "*"
 gunicorn = "*"
+django-storages = {extras = ["azure"], version = "*"}
+python-dotenv = "*"
 
 [dev-packages]
 
